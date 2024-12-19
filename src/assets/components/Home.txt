@@ -1,0 +1,25 @@
+
+import FAQ from './FAQ';
+import Footer from './Footer';
+import PricingCards from './PricingCard';
+import ContactForm from './ContactForm';
+import Banner from './Banner';
+import Global from './Global';
+import Offer from './Offer';
+import ProfitShareSlider from './ProfitSlider';
+const Home = () => {
+  return (
+    <>
+    <Banner/>
+      <PricingCards/> 
+      <Global/>
+      <Offer/>
+      <FAQ />
+      <ProfitShareSlider/>
+      <ContactForm/>
+      <Footer />
+    </>
+  )
+}
+
+export default Home
