@@ -5,7 +5,7 @@ import { useNavigate, } from 'react-router-dom';
 export default function Signin(){
   const navigate = useNavigate();
   
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const handleNavigation = (url: string) => {
          navigate(url);
         //  setIsOpen(false);

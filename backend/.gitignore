@@ -1,0 +1,61 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Hardhat
+/artifacts
+/cache
+/typechain
+/typechain-types
+
+# Contract deployment files
+deployments/hardhat/
+deployments/localhost/
+
+# Gas report
+gasReporterOutput.json
+
+# Coverage directory
+coverage
+coverage.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Private keys and mnemonics
+private-keys.txt
+mnemonic.txt
+secrets.json
