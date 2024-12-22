@@ -37,7 +37,7 @@ export default function Widget() {
               </div>
               <div className="mb-6">
                   <label className="block text-muted-foreground" htmlFor="message">Message</label>
-                  <textarea className="w-full p-2 border border-border rounded-lg bg-input text-foreground" id="message" rows="4" placeholder="Type your message..." required></textarea>
+                  <textarea className="w-full p-2 border border-border rounded-lg bg-input text-foreground" id="message" rows={4} placeholder="Type your message..." required></textarea>
               </div>
               <button className="w-full bg-primary text-primary-foreground hover:bg-primary/80 p-2 rounded-lg">Submit</button>
           </form>
